@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="mavryk_tek_logo.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> William Sewell</h1>
+    <p>Web Designer, Software Developer, Linux Enthusiast, and PC Builder </p>
+    <img src="will-blacknwhite.jpg" alt="boy" class="w3-image" width="900" height="1000">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Let Me Introduce Myself</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p><indent>Welcome to my professional portfolio! My name is William Sewell, and I am an IT Technician, Software Developer, 
+        and U.S. Navy Veteran with a strong passion for cybersecurity, networking, and software development. 
+        I am currently completing my Applied Bachelor's Degree in Computer Information Systems with a Cybersecurity concentration 
+        at the California Institute of Arts & Technology (CIAT) in San Diego, CA, with an expected graduation in May 2024. 
+        I also hold an Applied Associate's Degree in Computer Information Systems (Networking concentration) and an Associate of 
+        Applied Science in Software Development.</indent></p>
+
+        With a CompTIA Security+ certification and an active Secret Clearance since 2014, I bring a strong foundation in IT security, network administration, and troubleshooting. My technical expertise spans hardware repair, networking protocols, security protocols, and LAN/WAN architecture, along with proficiency in Windows, Linux, and macOS operating systems.
+        Professional Experience
+        
+        <br><br>My experience in software development includes an internship at NIWC (Naval Information Warfare Center), where I contributed to a top-secret government project that enhanced remote operations for naval ships. I worked extensively with Python, Flask, HTML, CSS, Git, Bitbucket, and Linux-based systems while integrating and debugging critical software components.</br></br>
+        
+        <indent><p>Beyond software development, I have also served in the U.S. Navy Reserves as an Electrician Mate since 2018, gaining hands-on experience in electrical systems, circuit troubleshooting, and shipboard maintenance. Previously, I served as a Culinary Specialist in the U.S. Navy (2014-2019), where I managed high-volume meal services and maintenance operations while leading multiple programs, including 3M, Electrical Safety, and Tag-out.
+        Technical Skills & Expertise  I am well-versed in a wide range of programming languages, including Java, Python, C#, C++, JavaScript, PHP, and more. My experience extends to software tools and platforms such as Microsoft Office 365, AWS, GitHub, GitLab, NextCloud, Visual Studio Code, Android Development Kit, and Swift Basics. Additionally, my background in networking, cybersecurity, and IT troubleshooting allows me to approach challenges from multiple angles, ensuring efficiency and security in all solutions I develop.
+        Looking Ahead, As I continue to expand my expertise in cybersecurity and IT infrastructure, I am eager to take on new challenges and contribute to cutting-edge technology projects. My goal is to bridge the gap between software development, cybersecurity, and network security, leveraging my military discipline, problem-solving skills, and technical knowledge to drive innovation and efficiency.  Feel free to explore my portfolio and connect with me for collaborations, job opportunities, or networking discussions! </indent></p>
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:75%"></div>
+    </div>
+    <p class="w3-wide">CyberSecurity</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:10%"></div>
+    </div>
+    <p class="w3-wide">Networking</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:50%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">2+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Programming Languages
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Networking Fundamentals
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span><br>
+        Fixing Computer Hardware
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programming Languages</li>
+          <li class="w3-padding-16">Html</li>
+          <li class="w3-padding-16">CSS</li>
+          <li class="w3-padding-16">Python</li>
+          <li class="w3-padding-16">C#</li>
+          <li class="w3-padding-16">C++</li>
+          <li class="w3-padding-16">C#</li>
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16">PHP</li>
+          <li class="w3-padding-16">Basic</li>
+          <li class="w3-padding-16">JavaScript</li>
+            <h2></h2>
+            <span class="w3-opacity"> </span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <!-- <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button> -->
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Networking & Programming</li>
+          <li class="w3-padding-16">Linux</li>
+          <li class="w3-padding-16">Windows</li>
+          <li class="w3-padding-16">Github</li>
+          <li class="w3-padding-16">GitLab</li>
+          <li class="w3-padding-16">Microsoft 365</li>
+          <li class="w3-padding-16">Network Modems</li>
+          <li class="w3-padding-16">Virtual Machines</li>
+          <li class="w3-padding-16">Java</li>
+          <li class="w3-padding-16">Android Studio</li>
+          <li class="w3-padding-16">Visual Studio Basic</li>
+          <li class="w3-padding-16">AWS</li>
+          <li class="w3-padding-16">NextCloud</li>
+          <li class="w3-padding-16">MySQL</li>
+          <li class="w3-padding-16">Cisco Packet Tracer</li>
+            <h2></h2>
+            <span class="w3-opacity"></span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <!--<button class="w3-button w3-white w3-padding-large w3-hover-black"></button> -->
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">Colleages & Friends</h3>  
+    <img src="BASF-Logo-700x394.png" alt="logo" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Roy Weaver</span> Engineer for BASF</p>
+    <p>Best Friend since College</p><br>
+    
+    <img src="Navy-Logo-700x394.png" alt="logo" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Gerald Thompkins</span>United States Naval Officer Reservist</p>
+    <p>Mentor and friend since College</p>
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="thumb_cinnamon.png" style="width:100%">
+        <img src="LykosOS_Desktop.png" style="width:100%">
+        <img src="mygithub.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="mavtech-screenshot.png" style="width:100%">
+        <img src="oldmavtech.png" style="width:100%">
+        <!-- <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%"> -->
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Please send me an email</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="contact.html" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
